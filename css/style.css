@@ -4,3 +4,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #363636;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+}
+
+nav {
+    background-color: pink;
+}
+
+main {
+    background-color: white;
+}
+
+footer {
+    background-color: pink;
+}
