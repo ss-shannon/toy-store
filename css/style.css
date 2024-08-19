@@ -1,5 +1,5 @@
 * {
-    font-family: serif, sans-serif;
+    font-family: sans-serif, Verdana;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +11,7 @@ body {
 
 #wrapper {
     max-width: 1000px;
+    min-height: 100vh;
     margin: 0 auto;
 }
 
