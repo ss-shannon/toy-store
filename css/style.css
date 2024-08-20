@@ -6,14 +6,14 @@
 }
 
 body {
-    background-color: #363636;
+    background-color: #c5a6f6;
 }
 
 #wrapper {
     max-width: 1000px;
     min-height: 100vh;
     margin: 0 auto;
-    background-color: purple;
+    background-color: white;
     padding: 1em;
     /* The page's primary grid */
     display: grid;
@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    background-color: lightgrey;
+    background-color: #e02323;
     grid-area: header;
     width: 100%;
     height: 125px;
@@ -42,7 +42,7 @@ header {
 
 header p {
 grid-area: logo;
-background-color: lightyellow;
+background-color: #ffe207;
 margin: 0.25em;
 }
 
@@ -51,7 +51,7 @@ header h1 {
 }
 
 nav {
-    background-color: white;
+    background-color: #602db3;
     grid-area: nav;
     width: 100%;
     height: 50px;
@@ -70,15 +70,16 @@ nav a {
     text-decoration: none;
     display: block;
     padding: 1em 4.6em;
+    color: white;
 }
 
 nav a:hover {
     color: white;
-    background-color: #1565C0;
+    background-color: #311d77;
 }
 
 main {
-    background-color: blue;
+    background-color: #36dc54;
     grid-area: main;
     width: 100%;
     min-height: 650px;
@@ -93,16 +94,16 @@ main {
 
 main article {
 grid-area: article1;
-background-color: lightblue;
+background-color: #b5e3be;
 }
 
 aside {
 grid-area: aside;
-background-color: white;
+background-color: #b5e3be;
 }
 
 footer {
-    background-color: pink;
+    background-color: #1baeec;
     grid-area: footer;
     width: 100%;
     min-height: 100px;
@@ -117,10 +118,10 @@ footer {
 
 footer p {
     grid-area: p;
-    background-color: lightgrey;
+    background-color: #9eeaf2;
 }
 
 footer h2 {
     grid-area: h2;
-    background-color: lightyellow;
+    background-color: #9eeaf2;
 }
