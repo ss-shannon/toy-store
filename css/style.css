@@ -43,7 +43,7 @@ header {
 header p {
 grid-area: logo;
 background-color: #ffe207;
-margin: 0.25em;
+margin: 0.20em 0.25em;
 }
 
 header h1 {
@@ -69,7 +69,9 @@ nav ul {
 nav a {
     text-decoration: none;
     display: block;
-    padding: 1em 4.6em;
+    padding: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
     color: white;
 }
 
