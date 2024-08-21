@@ -6,7 +6,8 @@
 }
 
 body {
-    background: url(../images/background.gif) repeat #caacf9;
+    background: url(../images/background1.gif) repeat #caacf9;
+    /* Copyright (c) Shannon Smith */
 }
 
 #wrapper {
@@ -44,9 +45,9 @@ header img {
 grid-area: logo;
 background-color: #1baeec;
 margin: 0.20em 0.25em;
+/* The image is not 250px x 125px because of the margins. */
 max-height: 100%;
 height: auto;
-object-fit: contain;
     /* Information for object-fit retrieved from https://www.w3schools.com/css/css3_object-fit.asp  */
 }
 
@@ -133,6 +134,20 @@ main article {
     grid-area: article1;
     background-color: #b5e3be;
     }
+
+#pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#pictures section {
+    margin: 1.5em;
+    width: 224px;
+    height: 242px;
+    background-color: white;
+}
 
 footer {
     background-color: #1baeec;
