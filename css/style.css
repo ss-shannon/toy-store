@@ -21,14 +21,14 @@ body {
     "header"
     "nav"
     "main"
-    "footer";
+    "news";
     grid-template-columns: 1fr;
-    grid-template-rows: 125px 50px minmax(650px, auto) minmax(100px, auto);
+    grid-template-rows: 125px 50px minmax(650px, auto) minmax(150px, auto);
     gap: 1em;
 }
 
 header {
-    background-color: #9eeaf2;
+    background-color: #7be4ef;
     grid-area: header;
     width: 100%;
     height: 125px;
@@ -96,36 +96,62 @@ main {
     gap: 1em;
 }
 
-main article {
-grid-area: article1;
-background-color: #b5e3be;
+h2 {
+    text-align: center;
+    padding: 1em 0.5em 0.5em 0.5em;
 }
 
-aside {
+p {
+    padding: 0em 1em;
+    text-align: left;
+}
+
+main aside {
 grid-area: aside;
 background-color: #b5e3be;
 }
 
+main aside ul {
+    padding: 1.5em 1em 1.5em 1em;
+    list-style: none;
+    text-align: center;
+}
+
+#paragraph2 {
+    padding: 0em 1em 1em 1em;
+}
+
+article {
+    grid-area: article1;
+    background-color: #b5e3be;
+    }
+
 footer {
     background-color: #1baeec;
-    grid-area: footer;
+    grid-area: news;
     width: 100%;
-    min-height: 100px;
+    min-height: 150px;
     padding: 1em;
     /* The footer's sub grid */
     display: grid;
     grid-template-areas:
-    "nav2 h2";
+    "breaking article";
     grid-template-columns: 2fr 3fr;
     gap: 1em;
 }
 
-footer ul {
-    grid-area: nav2;
-    background-color: #9eeaf2;
+footer h2 {
+    padding: 0.5em 1em;
 }
 
-footer h2 {
-    grid-area: h2;
-    background-color: #9eeaf2;
+footer aside {
+    grid-area: breaking;
+    background-color: #7be4ef;
+    padding: 0.5em;
+}
+
+footer article {
+    grid-area: article;
+    background-color: #7be4ef;
+    padding: 0.5em;
 }
