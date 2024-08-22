@@ -4,14 +4,14 @@ This project is a single web page for a Toy Store. It was made as part of the Ce
 
 The project involved using HTML and CSS to recreate a given website layout, focusing on meeting accessibility guidelines and selecting design elements tailored to a specific target audience.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 ### Built With
 
 HTML5 and CSS3.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -42,7 +42,6 @@ HTML5 and CSS3.
 - [x] The website has been tested in different browsers.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
